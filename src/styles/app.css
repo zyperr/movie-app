@@ -1,0 +1,28 @@
+@import url("./base/variables.css");
+@import url("./components/header.css");
+
+
+*{
+    box-sizing: border-box;
+    font-family: var(--font-chakra);
+    line-height: var(--font-line-heigth);
+}
+h1{
+    font-size: var(--font-size-32);
+    font-weight: var(--font-regular);
+}
+svg{
+    font-size: var(--font-size-20);
+}
+h3{
+    font-weight: var(--font-medium);
+    font-size: var(--font-size-24);
+}
+p{
+    font-weight: var(--font-regular);
+    font-size: var(--font-size-18);
+}
+body{
+    background-color: var(--bg-app);
+    color: var(--text-color);
+}

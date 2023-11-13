@@ -1,0 +1,36 @@
+:root {
+  --font-chakra: "Chakra Petch", sans-serif;
+  --font-line-heigth: 150%;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-32: 32px;
+  --font-size-36: 36px;
+
+  --white: #ffffff;
+  --text-color: #bec2da;
+  --sub-text: #bec2da;
+  --sub-text-opacity: opacity(65%);
+
+  --stroke-details: #13f287;
+
+  --green-text: #84f4be;
+  --green-details: #13f287;
+
+  --bg-app: #0e0c15;
+  --bg-buttons: #201E29;
+  --bg-buttons-opacity: opacity(65%);
+  --box-bg: #14131C;
+  --box-opacity: opacity(10%);
+
+  --image-opacity: opacity(65%);
+  --blur: blur(1px);
+  --border: 1px solid var(--green-details);
+}
