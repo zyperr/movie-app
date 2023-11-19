@@ -14,23 +14,24 @@
   --font-size-32: 32px;
   --font-size-36: 36px;
 
+  --border-radius-8: 8px;
+
   --white: #ffffff;
   --text-color: #bec2da;
   --sub-text: #bec2da;
-  --sub-text-opacity: opacity(65%);
-
   --stroke-details: #13f287;
-
+  
+  
+  --scroll-color:rgba(97, 242, 174, 0.50);
+  --scroll-bg:#262626;
   --green-text: #84f4be;
   --green-details: #13f287;
 
   --bg-app: #0e0c15;
-  --bg-buttons: #201E29;
-  --bg-buttons-opacity: opacity(65%);
+  --bg-items: #201E29;
+  --bg-buttons:rgba(32, 30, 41, 0.65);
   --box-bg: #14131C;
-  --box-opacity: opacity(10%);
 
-  --image-opacity: opacity(65%);
   --blur: blur(1px);
   --border: 1px solid var(--green-details);
 }

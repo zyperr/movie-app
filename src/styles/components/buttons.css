@@ -1,0 +1,15 @@
+@import url("../base/variables.css");
+.btn{
+    background: var(--bg-buttons);
+    padding: 5px 25px;
+    border-radius: var(--border-radius-8);
+    border: var(--border);
+    box-shadow: 1px 1px 5px #13f287;
+    transition: background,color 200ms ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--bg-items);
+    color: var(--green-text);
+}

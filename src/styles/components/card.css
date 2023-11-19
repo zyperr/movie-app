@@ -1,0 +1,38 @@
+@import url("../base/variables.css");
+
+
+.card__container{
+    border: var(--border);
+    border-radius: var(--border-radius-8);
+    background: var(--bg-items);
+    padding: 0.90rem;
+    display: flex;
+    transition: all 200ms ease;
+    cursor: pointer;
+}
+.card__container:hover{
+    transform: scale(0.90);
+    border: none;
+    filter: drop-shadow(1px 1px 5px var(--stroke-details));
+}
+
+.card__container:hover .card__title{
+    color: var(--white);
+}
+.card__container:hover .card__img{
+    filter: grayscale(100%);
+}
+
+.card__figure{
+    text-align: center;
+}
+.card__title{
+    color: var(--text-color);
+    font-size: var(--font-size-18);
+    font-weight: var(--font-regular);
+}
+.card__img{
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: var(--border-radius-8); 
+}
