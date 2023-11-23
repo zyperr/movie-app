@@ -1,4 +1,6 @@
-import { menuIcon } from "../icons/Icons.js";
+import { Icons } from "../icons/Icons.js";
+
+const {menuIcon} = Icons
 
 const rutas = ["popular", "now playing", "top rated", "upcoming"]
 

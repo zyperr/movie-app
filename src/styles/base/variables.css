@@ -31,7 +31,7 @@
   --bg-items: #201E29;
   --bg-buttons:rgba(32, 30, 41, 0.65);
   --box-bg: #14131C;
-
+  --bg-footer: #191720;
   --blur: blur(1px);
   --border: 1px solid var(--green-details);
 }

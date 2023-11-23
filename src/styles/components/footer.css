@@ -1,0 +1,47 @@
+@import url("../base/variables.css");
+
+.footer{
+    display: flex;
+    gap: .625rem;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-footer);
+    height: 200px;
+}
+.footer section{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-flow: row wrap;
+}
+.footer a{
+    padding: 10px;
+    font-size: var(--font-size-18);
+    transition: transform 200ms ease;
+}
+
+.footer svg{
+    font-size: var(--font-size-32);
+}
+.footer a:hover{ 
+    transform: scale(1.1);
+    color: var(--text-color);
+}
+
+.footer__social {
+    border-right: 1px solid var(--stroke-details);
+    border-left: 1px solid var(--stroke-details);
+}
+.footer__copyright{
+    text-align: center;
+
+}
+@media screen and (min-width: 768px){
+    .footer a{
+        padding: 10px;
+        font-size: var(--font-size-32);
+        transition: transform 200ms ease;
+    }
+}

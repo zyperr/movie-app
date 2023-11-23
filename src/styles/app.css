@@ -1,5 +1,6 @@
 @import url("./base/variables.css");
 @import url("./components/header.css");
+@import url("./components/footer.css");
 @import url("./components/featured-carrousel.css");
 @import url("./components/buttons.css");
 @import url("./components/card.css");
@@ -11,6 +12,10 @@
   margin: 0;
   font-family: var(--font-chakra);
   line-height: var(--font-line-heigth);
+}
+a{
+  text-decoration: none;
+  color: var(--white);
 }
 ul{
   list-style: none;
@@ -43,7 +48,7 @@ body {
   color: var(--text-color);
 }
 
-.featured__section-container{
+main{
   margin-top: 75px;
 }
 .section__title{
@@ -60,6 +65,10 @@ body {
   flex-wrap: nowrap;
   gap: 1rem;
   overflow-x: scroll;
+}
+
+.--d-none{
+  display: none;
 }
 ::-webkit-scrollbar {
   background-color: var(--scroll-bg);
