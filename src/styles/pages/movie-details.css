@@ -13,7 +13,11 @@
 }
 .movie__details__info{
     align-self: center;
-    justify-items: center;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 .movie__details__title{
     color: var(--title-movie-details);
@@ -60,6 +64,37 @@
     margin: 0 15px;
     text-align: left;
 }
-.movie__details_recommended-movies .movie__details__title{
-    color: var(--title-movie-overview);
+
+@media screen and (min-width: 768px) {
+    .movie__details__hero{
+        height: 100vh;
+    }
+    .movie__details__img img{
+        width: 300px;
+        height: 400px;
+    }
+    .movie__details__info{
+        width: 100%;
+    }
+    .movie__details__title{
+        max-width: none;
+    }
+    .pills__container{
+        display: flex;
+        justify-content: center;
+    }
+    .movie__details__extra-info{
+        align-items: center;
+        padding-right: 150px;
+    }
+    .movie__details__extra-info span{
+        display: flex;
+        align-items: center;
+        width: 150px;
+        padding: 10px 0px;
+        gap: .625rem;
+    }
+    .movie__details__extra-info svg{
+        font-size: var(--font-size-32);
+    }
 }

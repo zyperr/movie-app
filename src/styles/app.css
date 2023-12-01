@@ -5,6 +5,7 @@
 @import url("./components/card.css");
 @import url("./pages/movie-details.css");
 @import url("./components/pills.css");
+@import url("./pages/directory.css");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -92,9 +93,16 @@ section{
     font-size: var(--font-size-36);
   }
   h3 {
-    font-size: var(--font-size-32);
+    font-size: var(--font-size-36);
   }
   figcaption{
     font-size: var(--font-size-32);
+  }
+  span{
+    font-size: var(--font-size-20);
+  }
+  p{
+  font-size: var(--font-size-20);
+
   }
 }
