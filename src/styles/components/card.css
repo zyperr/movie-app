@@ -36,3 +36,8 @@
     max-height: 300px;
     border-radius: var(--border-radius-8); 
 }
+
+.card__container.--similar-movies img{
+    max-width:150px ;
+    max-height:  150px;
+}

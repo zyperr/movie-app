@@ -1,0 +1,8 @@
+@import url("../base/variables.css");
+.pills{
+    background: var(--box-bg);
+    padding: 5px 10px;
+    border-radius: var(--border-radius-8);
+    color: var(--sub-text);
+    font-size: var(--font-size-12);
+}

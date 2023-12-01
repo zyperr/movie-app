@@ -1,0 +1,65 @@
+.movie__details{
+    display: flex;
+    flex-flow: column;
+}
+.movie__details__hero{
+    height: 40vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url("https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+}
+.movie__details__info{
+    align-self: center;
+    justify-items: center;
+}
+.movie__details__title{
+    color: var(--title-movie-details);
+    max-width: 190px;
+    text-align: center;
+    margin: 5px 0px;
+}
+.movie__details__info .pills{
+    margin: 10px 2px;
+}
+
+.movie__details__extra-info{
+    display: flex;
+    flex-flow: column;
+    margin: 10px;
+    padding: 5px;
+}
+.movie__details__img{
+    display: flex;
+    width: auto;
+    height: 100%;
+    padding: 1rem;
+}
+.movie__details__img img{
+    width: 131px;
+    height: 194px;
+    align-self: center;
+    border-radius: var(--border-radius-8);
+}
+
+.movie__details__overview{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.movie__details__overview .movie__details__title{
+ align-self:flex-start;
+ margin: 20px;
+ color: var(--title-movie-overview);
+}
+.movie__details__description{
+    max-width: 365px;
+    margin: 0 15px;
+    text-align: left;
+}
+.movie__details_recommended-movies .movie__details__title{
+    color: var(--title-movie-overview);
+}
